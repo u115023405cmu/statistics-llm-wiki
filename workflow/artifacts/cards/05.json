@@ -1,0 +1,67 @@
+{
+  "id": "05",
+  "title": "先用圖表看資料",
+  "subtitle": "先辨認資料種類，再選擇呈現方式",
+  "evidence": [
+    {
+      "slide_id": "05",
+      "entry": "wiki/entries/summarizing-data.md",
+      "anchor": "**散佈圖（scatterplot）**",
+      "exact_wiki_passage": "- **散佈圖（scatterplot）**：描述兩個數值變數的關係，例如個人總收入與貸款金額；它不直接證明因果。[S02, PDF p.4]\n- **直方圖（histogram）**：把數值資料切成區間（bins），觀察次數分布；講義使用貸款利率作例子。箱寬不同可能影響所觀察到的分布細節。[S02, PDF p.5]\n- **形狀（shape）**：右偏態通常是右尾較長；左偏態為左尾較長；也要觀察單峰、雙峰、多峰，不能只看平均。[S02, PDF p.6] [S02, PDF p.10]\n- **類別型資料**：次數表、長條圖、交叉表（contingency table）、馬賽克圖（mosaic plot）；講義亦提醒圓餅圖往往不利於精準比較。[S02, PDF p.20] [S02, PDF p.21] [S02, PDF p.22] [S02, PDF p.23]",
+      "teaching_excerpt": "散佈圖（scatterplot）：描述兩個數值變數的關係，例如個人總收入與貸款金額；它不直接證明因果。",
+      "citations": [
+        {
+          "source_id": "S02",
+          "pdf_page": 4,
+          "reference": "[S02, PDF p.4]"
+        },
+        {
+          "source_id": "S02",
+          "pdf_page": 5,
+          "reference": "[S02, PDF p.5]"
+        },
+        {
+          "source_id": "S02",
+          "pdf_page": 6,
+          "reference": "[S02, PDF p.6]"
+        },
+        {
+          "source_id": "S02",
+          "pdf_page": 10,
+          "reference": "[S02, PDF p.10]"
+        }
+      ],
+      "citation_from_adjacent_paragraph": false
+    },
+    {
+      "slide_id": "05",
+      "entry": "wiki/entries/summarizing-data.md",
+      "anchor": "**直方圖（histogram）**",
+      "exact_wiki_passage": "- **散佈圖（scatterplot）**：描述兩個數值變數的關係，例如個人總收入與貸款金額；它不直接證明因果。[S02, PDF p.4]\n- **直方圖（histogram）**：把數值資料切成區間（bins），觀察次數分布；講義使用貸款利率作例子。箱寬不同可能影響所觀察到的分布細節。[S02, PDF p.5]\n- **形狀（shape）**：右偏態通常是右尾較長；左偏態為左尾較長；也要觀察單峰、雙峰、多峰，不能只看平均。[S02, PDF p.6] [S02, PDF p.10]\n- **類別型資料**：次數表、長條圖、交叉表（contingency table）、馬賽克圖（mosaic plot）；講義亦提醒圓餅圖往往不利於精準比較。[S02, PDF p.20] [S02, PDF p.21] [S02, PDF p.22] [S02, PDF p.23]",
+      "teaching_excerpt": "直方圖（histogram）：把數值資料切成區間（bins），觀察次數分布；講義使用貸款利率作例子。箱寬不同可能影響所觀察到的分布細節。",
+      "citations": [
+        {
+          "source_id": "S02",
+          "pdf_page": 4,
+          "reference": "[S02, PDF p.4]"
+        },
+        {
+          "source_id": "S02",
+          "pdf_page": 5,
+          "reference": "[S02, PDF p.5]"
+        },
+        {
+          "source_id": "S02",
+          "pdf_page": 6,
+          "reference": "[S02, PDF p.6]"
+        },
+        {
+          "source_id": "S02",
+          "pdf_page": 10,
+          "reference": "[S02, PDF p.10]"
+        }
+      ],
+      "citation_from_adjacent_paragraph": false
+    }
+  ]
+}

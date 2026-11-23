@@ -1,0 +1,42 @@
+{
+  "id": "03",
+  "title": "資料是怎麼組成的？",
+  "subtitle": "看懂觀察值、變數與資料矩陣",
+  "evidence": [
+    {
+      "slide_id": "03",
+      "entry": "wiki/entries/data-and-sampling.md",
+      "anchor": "**觀察值（observation/case）**",
+      "exact_wiki_passage": "**觀察值（observation/case）**：研究的一個對象，例如一筆貸款、一位學生。**變數（variable）**：對每個觀察對象測量的屬性，如貸款金額、利率、居住州別。把每個觀察對象排成一列、各變數排成一欄，就形成**資料矩陣（data matrix）**。講義以貸款資料矩陣為例。 [S01, PDF p.3] [S01, PDF p.5]",
+      "teaching_excerpt": "觀察值（observation/case）：研究的一個對象，例如一筆貸款、一位學生。變數（variable）：對每個觀察對象測量的屬性，如貸款金額、利率、居住州別。把每個觀察對象排成一列、各變數排成一欄，就形成資料矩陣（data matrix）。講義以貸款資料矩陣為例。",
+      "citations": [
+        {
+          "source_id": "S01",
+          "pdf_page": 3,
+          "reference": "[S01, PDF p.3]"
+        },
+        {
+          "source_id": "S01",
+          "pdf_page": 5,
+          "reference": "[S01, PDF p.5]"
+        }
+      ],
+      "citation_from_adjacent_paragraph": false
+    },
+    {
+      "slide_id": "03",
+      "entry": "wiki/entries/data-and-sampling.md",
+      "anchor": "**解釋變數（explanatory variable）**",
+      "exact_wiki_passage": "**解釋變數（explanatory variable）**通常是希望用來解釋或預測其他變數的 X；**反應變數（response variable）**是受關注的結果 Y。X 和 Y 的指定受研究問題影響；不能因為在圖中 X 擺左邊就證明 X 導致 Y。 [S01, PDF p.8]",
+      "teaching_excerpt": "解釋變數（explanatory variable）通常是希望用來解釋或預測其他變數的 X；反應變數（response variable）是受關注的結果 Y。X 和 Y 的指定受研究問題影響；不能因為在圖中 X 擺左邊就證明 X 導致 Y。",
+      "citations": [
+        {
+          "source_id": "S01",
+          "pdf_page": 8,
+          "reference": "[S01, PDF p.8]"
+        }
+      ],
+      "citation_from_adjacent_paragraph": false
+    }
+  ]
+}

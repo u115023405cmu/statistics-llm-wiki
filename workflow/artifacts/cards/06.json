@@ -1,0 +1,42 @@
+{
+  "id": "06",
+  "title": "平均與中位數不一樣",
+  "subtitle": "一個極端值，可能讓平均數失真",
+  "evidence": [
+    {
+      "slide_id": "06",
+      "entry": "wiki/entries/summarizing-data.md",
+      "anchor": "資料排序後，**中位數（median）**",
+      "exact_wiki_passage": "資料排序後，**中位數（median）**是中間位置；\\(Q_1\\) 與 \\(Q_3\\) 分別表示第一與第三四分位數，**四分位距** \\(IQR=Q_3-Q_1\\) 表示中間 50% 資料的跨度。[S02, PDF p.11]",
+      "teaching_excerpt": "資料排序後，中位數（median）是中間位置；Q_1 與 Q_3 分別表示第一與第三四分位數，四分位距 IQR=Q_3-Q_1 表示中間 50% 資料的跨度。",
+      "citations": [
+        {
+          "source_id": "S02",
+          "pdf_page": 11,
+          "reference": "[S02, PDF p.11]"
+        }
+      ],
+      "citation_from_adjacent_paragraph": false
+    },
+    {
+      "slide_id": "06",
+      "entry": "wiki/entries/summarizing-data.md",
+      "anchor": "當資料非常右偏、少數值遠大於其他值",
+      "exact_wiki_passage": "**為何同時報告平均與中位數？** 當資料非常右偏、少數值遠大於其他值，平均數容易被拉高，中位數則較能代表典型個案；講義以貸款利率的極端觀察值修改前後比較，展示中位數與 IQR 相對不受影響，平均數與標準差較敏感。[S02, PDF p.15] [S02, PDF p.16]",
+      "teaching_excerpt": "為何同時報告平均與中位數？ 當資料非常右偏、少數值遠大於其他值，平均數容易被拉高，中位數則較能代表典型個案；講義以貸款利率的極端觀察值修改前後比較，展示中位數與 IQR 相對不受影響，平均數與標準差較敏感。",
+      "citations": [
+        {
+          "source_id": "S02",
+          "pdf_page": 15,
+          "reference": "[S02, PDF p.15]"
+        },
+        {
+          "source_id": "S02",
+          "pdf_page": 16,
+          "reference": "[S02, PDF p.16]"
+        }
+      ],
+      "citation_from_adjacent_paragraph": false
+    }
+  ]
+}

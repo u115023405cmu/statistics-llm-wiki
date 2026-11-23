@@ -1,0 +1,7 @@
+﻿id,filename,topic,chapter_outline,pdf_pages,sha256,file_verified,ingested,source_type,local_location,provenance,ingest_note
+S01,01_IntroToData_2026h.pdf,資料與抽樣,Data Basics／Sampling Strategies／Experiments,22,6ca68602a492ee06d9bcef2415c5d2e059c8a54c491cde1ec6f37f1afb0abaa3,是,是,上傳的課程講義,raw/01_IntroToData_2026h.pdf,使用者提供；僅供個人學習,已讀取全文與建立來源卡；未公開原始PDF
+S02,02_SumData_2026h.pdf,敘述統計,Numerical Data／Categorical Data,27,52a42e955386543b459cb2996048b0f51f1861c0bfc7f71c52410b292679cf80,是,是,上傳的課程講義,raw/02_SumData_2026h.pdf,使用者提供；僅供個人學習,已讀取全文與建立來源卡；未公開原始PDF
+S03,03_Probability_2026h.pdf,機率,機率基本概念／機率事件與計算,40,c85006ac54f1c6f52e22816ce7f4c1ce0aeea118188272c42de9ae13c38c32f9,是,是,上傳的課程講義,raw/03_Probability_2026h.pdf,使用者提供；僅供個人學習,已讀取全文與建立來源卡；未公開原始PDF
+S04,04_Distributions_2026h.pdf,隨機變數與分配,PDF／常態分配／計數型分配,33,7c24106c4435c9c596ca52ede540d9f1c37d044fbc612abcaf636f8aeb749152,是,是,上傳的課程講義,raw/04_Distributions_2026h.pdf,使用者提供；僅供個人學習,已讀取全文與建立來源卡；未公開原始PDF
+S05,05_InferenceEst_2026h.pdf,統計推論：估計,Point Estimates／Confidence Interval,27,426dac5dd035de1044dcb6bdfd2de9d08e66db124002eb72774e3fdd425d36ee,是,是,上傳的課程講義,raw/05_InferenceEst_2026h.pdf,使用者提供；僅供個人學習,已讀取全文與建立來源卡；未公開原始PDF
+S06,Week7_InferenceHypTest_2026h.pdf,統計推論：假設檢定,Null Hypothesis／p-value／Hypothesis Tests,28,f107ce60a39b56307243ee649d8f0504cf290a6e0058e04bf1a57f6eab2a9d2f,是,是,上傳的課程講義,raw/Week7_InferenceHypTest_2026h.pdf,使用者提供；僅供個人學習,已讀取全文與建立來源卡；未公開原始PDF

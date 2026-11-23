@@ -1,0 +1,42 @@
+{
+  "id": "10",
+  "title": "從樣本推到母體",
+  "subtitle": "信賴區間代表估計的不確定性",
+  "evidence": [
+    {
+      "slide_id": "10",
+      "entry": "wiki/entries/inference-estimation.md",
+      "anchor": "點估計只給一個值",
+      "exact_wiki_passage": "點估計只給一個值；**信賴區間（CI）**給一段可能涵蓋未知母體參數的範圍。對樣本比例，常見的 95% 常態近似區間是",
+      "teaching_excerpt": "點估計只給一個值；信賴區間（CI）給一段可能涵蓋未知母體參數的範圍。",
+      "citations": [
+        {
+          "source_id": "S05",
+          "pdf_page": 21,
+          "reference": "[S05, PDF p.21]"
+        },
+        {
+          "source_id": "S05",
+          "pdf_page": 23,
+          "reference": "[S05, PDF p.23]"
+        }
+      ],
+      "citation_from_adjacent_paragraph": true
+    },
+    {
+      "slide_id": "10",
+      "entry": "wiki/entries/inference-estimation.md",
+      "anchor": "**95% 的正確解讀**",
+      "exact_wiki_passage": "**95% 的正確解讀**：在同樣抽樣方式下反覆抽樣、每次用同一程序建立信賴區間，大約 95% 的區間會包含固定的母體參數。不是說某次已經算好的區間「母體參數有 95% 機率在裡面」。[S05, PDF p.22]",
+      "teaching_excerpt": "95% 的正確解讀：在同樣抽樣方式下反覆抽樣、每次用同一程序建立信賴區間，大約 95% 的區間會包含固定的母體參數。不是說某次已經算好的區間「母體參數有 95% 機率在裡面」。",
+      "citations": [
+        {
+          "source_id": "S05",
+          "pdf_page": 22,
+          "reference": "[S05, PDF p.22]"
+        }
+      ],
+      "citation_from_adjacent_paragraph": false
+    }
+  ]
+}

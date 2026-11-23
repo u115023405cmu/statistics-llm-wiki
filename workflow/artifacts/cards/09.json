@@ -1,0 +1,37 @@
+{
+  "id": "09",
+  "title": "看懂常態分配",
+  "subtitle": "用 Z 分數比較不同尺度的資料",
+  "evidence": [
+    {
+      "slide_id": "09",
+      "entry": "wiki/entries/random-variable-distributions.md",
+      "anchor": "的意思是：觀察值",
+      "exact_wiki_passage": "\\(Z\\) 的意思是：觀察值距離均值幾個標準差。大於 0 代表高於平均；小於 0 代表低於平均。[S04, PDF p.12]",
+      "teaching_excerpt": "Z 的意思是：觀察值距離均值幾個標準差。大於 0 代表高於平均；小於 0 代表低於平均。",
+      "citations": [
+        {
+          "source_id": "S04",
+          "pdf_page": 12,
+          "reference": "[S04, PDF p.12]"
+        }
+      ],
+      "citation_from_adjacent_paragraph": false
+    },
+    {
+      "slide_id": "09",
+      "entry": "wiki/entries/random-variable-distributions.md",
+      "anchor": "**68–95–99.7 法則**",
+      "exact_wiki_passage": "**68–95–99.7 法則**：常態分配約 68%、95%、99.7% 的觀察值，分別落在均值正負 1、2、3 個 SD 範圍內。這是常態分配的近似性質，不可直接套在任何偏態分布。[S04, PDF p.22]",
+      "teaching_excerpt": "68–95–99.7 法則：常態分配約 68%、95%、99.7% 的觀察值，分別落在均值正負 1、2、3 個 SD 範圍內。這是常態分配的近似性質，不可直接套在任何偏態分布。",
+      "citations": [
+        {
+          "source_id": "S04",
+          "pdf_page": 22,
+          "reference": "[S04, PDF p.22]"
+        }
+      ],
+      "citation_from_adjacent_paragraph": false
+    }
+  ]
+}

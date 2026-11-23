@@ -1,0 +1,44 @@
+# S03｜來源 PDF 逐頁主題索引
+
+來源：`03_Probability_2026h.pdf`。索引頁碼採實際 PDF 實體頁，非投影片印刷頁碼。
+
+- PDF p.1: Probability
+- PDF p.2: (本頁可能以圖像為主／文字不足)
+- PDF p.3: (本頁可能以圖像為主／文字不足)
+- PDF p.4: Outline
+- PDF p.5: https://www.reuters.com/sports/
+- PDF p.6: Probability Is the Foundation of Statistics
+- PDF p.7: (本頁可能以圖像為主／文字不足)
+- PDF p.8: Defining Probability
+- PDF p.9: Law of Large Numbers
+- PDF p.10: Disjoint Outcomes
+- PDF p.11: Event
+- PDF p.12: Venn Diagram
+- PDF p.13: Probability Distribution
+- PDF p.14: Complement of Event
+- PDF p.15: Independence
+- PDF p.16: Multiplication Rule for Independent Processes
+- PDF p.17: Quick Review
+- PDF p.18: Marginal & Joint Probabilities
+- PDF p.19: Marginal & Joint Probabilities
+- PDF p.20: Conditional Probability
+- PDF p.21: Independence in Cond Prob
+- PDF p.22: Features of Cond Probabilities
+- PDF p.23: Quick Review
+- PDF p.24: iPhone & AirPods
+- PDF p.25: Random Variable
+- PDF p.26: Expected Value
+- PDF p.27: Prob Distribution Is Balanced at E(X)
+- PDF p.28: Variance & Standard Deviation
+- PDF p.29: Features of E(X) & Var(X)
+- PDF p.30: Example
+- PDF p.31: Sample Analogues of µ, σ2
+- PDF p.32: Relationship Between 2 RV’s
+- PDF p.33: Covariance
+- PDF p.34: Example
+- PDF p.35: ρ = 0.37 ρ = 0.76 ρ = 0.94 ρ = 1.00
+- PDF p.36: Linear Combinations of RV’s
+- PDF p.37: Portfolio Returns
+- PDF p.38: Independence vs. Uncorrelatedness
+- PDF p.39: Example
+- PDF p.40: Quick Review

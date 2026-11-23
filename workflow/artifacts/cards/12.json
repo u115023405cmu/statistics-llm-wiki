@@ -1,0 +1,38 @@
+{
+  "id": "12",
+  "title": "重點回顧",
+  "subtitle": "資料 → 抽樣 → 描述 → 機率 → 推論",
+  "kind": "summary",
+  "evidence": [
+    {
+      "slide_id": "12",
+      "entry": "wiki/entries/data-and-sampling.md",
+      "anchor": "**母體（population）**",
+      "exact_wiki_passage": "**母體（population）**是研究欲推論的所有對象；**樣本（sample）**是實際取得資料的一部分。若要知道某校學生平均完成學位所需時間，觀察到兩名延畢學生的故事，不足以支持整體平均很高。這是把零星個案誤認為代表性資料的問題。 [S01, PDF p.12]",
+      "teaching_excerpt": "母體（population）是研究欲推論的所有對象；樣本（sample）是實際取得資料的一部分。若要知道某校學生平均完成學位所需時間，觀察到兩名延畢學生的故事，不足以支持整體平均很高。這是把零星個案誤認為代表性資料的問題。",
+      "citations": [
+        {
+          "source_id": "S01",
+          "pdf_page": 12,
+          "reference": "[S01, PDF p.12]"
+        }
+      ],
+      "citation_from_adjacent_paragraph": false
+    },
+    {
+      "slide_id": "12",
+      "entry": "wiki/entries/inference-hypothesis-testing.md",
+      "anchor": "**p 值（p-value）**",
+      "exact_wiki_passage": "**p 值（p-value）**是在 H₀ 為真的前提下，取得「至少與目前一樣極端」的觀察結果的機率。雙尾時：",
+      "teaching_excerpt": "p 值（p-value）是在 H₀ 為真的前提下，取得「至少與目前一樣極端」的觀察結果的機率。",
+      "citations": [
+        {
+          "source_id": "S06",
+          "pdf_page": 20,
+          "reference": "[S06, PDF p.20]"
+        }
+      ],
+      "citation_from_adjacent_paragraph": true
+    }
+  ]
+}

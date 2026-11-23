@@ -1,0 +1,19 @@
+{
+  "title": "從資料到結論：統計學如何幫助我們做判斷？",
+  "audience": "首次接觸統計學的大學生",
+  "slide_range": [10, 12],
+  "slides": [
+    {"id":"01","title":"從資料到結論","subtitle":"一份給統計學初學者的導覽","kind":"cover","claims":[]},
+    {"id":"02","title":"為什麼要學統計？","subtitle":"用樣本理解母體，而不是只憑直覺","claims":[{"entry":"inference-estimation.md","anchor":"**母體參數（parameter）**"},{"entry":"inference-estimation.md","anchor":"**抽樣誤差（sampling error）**"}]},
+    {"id":"03","title":"資料是怎麼組成的？","subtitle":"看懂觀察值、變數與資料矩陣","claims":[{"entry":"data-and-sampling.md","anchor":"**觀察值（observation/case）**"},{"entry":"data-and-sampling.md","anchor":"**解釋變數（explanatory variable）**"}]},
+    {"id":"04","title":"抽樣會讓我們看錯嗎？","subtitle":"母體、樣本，以及偏差的來源","claims":[{"entry":"data-and-sampling.md","anchor":"**母體（population）**"},{"entry":"data-and-sampling.md","anchor":"**未回覆偏差（non-response bias）**"}]},
+    {"id":"05","title":"先用圖表看資料","subtitle":"先辨認資料種類，再選擇呈現方式","claims":[{"entry":"summarizing-data.md","anchor":"**散佈圖（scatterplot）**"},{"entry":"summarizing-data.md","anchor":"**直方圖（histogram）**"}]},
+    {"id":"06","title":"平均與中位數不一樣","subtitle":"一個極端值，可能讓平均數失真","claims":[{"entry":"summarizing-data.md","anchor":"資料排序後，**中位數（median）**"},{"entry":"summarizing-data.md","anchor":"當資料非常右偏、少數值遠大於其他值"}]},
+    {"id":"07","title":"機率不是憑感覺","subtitle":"條件不一樣，分母就不一樣","claims":[{"entry":"probability-and-random-variables.md","anchor":"在 1,822 張照片中"},{"entry":"probability-and-random-variables.md","anchor":"這兩個條件機率不一樣"}]},
+    {"id":"08","title":"隨機變數與期望值","subtitle":"用數值整理不確定的結果","claims":[{"entry":"probability-and-random-variables.md","anchor":"**隨機變數（random variable, RV）**"},{"entry":"probability-and-random-variables.md","anchor":"期望值不一定是一筆真實會發生的交易"}]},
+    {"id":"09","title":"看懂常態分配","subtitle":"用 Z 分數比較不同尺度的資料","claims":[{"entry":"random-variable-distributions.md","anchor":"的意思是：觀察值"},{"entry":"random-variable-distributions.md","anchor":"**68–95–99.7 法則**"}]},
+    {"id":"10","title":"從樣本推到母體","subtitle":"信賴區間代表估計的不確定性","claims":[{"entry":"inference-estimation.md","anchor":"點估計只給一個值"},{"entry":"inference-estimation.md","anchor":"**95% 的正確解讀**"}]},
+    {"id":"11","title":"如何檢驗一個主張？","subtitle":"假設檢定與 p 值的直覺","claims":[{"entry":"inference-hypothesis-testing.md","anchor":"若有關於母體的主張"},{"entry":"inference-hypothesis-testing.md","anchor":"**p 值（p-value）**"}]},
+    {"id":"12","title":"重點回顧","subtitle":"資料 → 抽樣 → 描述 → 機率 → 推論","kind":"summary","claims":[{"entry":"data-and-sampling.md","anchor":"**母體（population）**"},{"entry":"inference-hypothesis-testing.md","anchor":"**p 值（p-value）**"}]}
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "11",
+  "title": "如何檢驗一個主張？",
+  "subtitle": "假設檢定與 p 值的直覺",
+  "evidence": [
+    {
+      "slide_id": "11",
+      "entry": "wiki/entries/inference-hypothesis-testing.md",
+      "anchor": "若有關於母體的主張",
+      "exact_wiki_passage": "若有關於母體的主張，統計檢定先假定**零假設（null hypothesis）** \\(H_0\\) 成立，再問：「如果 \\(H_0\\) 真的正確，取得目前這麼極端的數據有多不尋常？」若很不尋常，就考慮拒絕 \\(H_0\\)。老師借用「無罪推定」幫助理解：不能證明有罪，**不等於**證明無罪；同樣地，**不拒絕 \\(H_0\\) 不等於證明 \\(H_0\\) 為真**。[S06, PDF p.5] [S06, PDF p.6]",
+      "teaching_excerpt": "若有關於母體的主張，統計檢定先假定零假設（null hypothesis） H_0 成立，再問：「如果 H_0 真的正確，取得目前這麼極端的數據有多不尋常？」若很不尋常，就考慮拒絕 H_0。老師借用「無罪推定」幫助理解：不能證明有罪，不等於證明無罪；同樣地，不拒絕 H_0 不等於證明 H_0 為真。",
+      "citations": [
+        {
+          "source_id": "S06",
+          "pdf_page": 5,
+          "reference": "[S06, PDF p.5]"
+        },
+        {
+          "source_id": "S06",
+          "pdf_page": 6,
+          "reference": "[S06, PDF p.6]"
+        }
+      ],
+      "citation_from_adjacent_paragraph": false
+    },
+    {
+      "slide_id": "11",
+      "entry": "wiki/entries/inference-hypothesis-testing.md",
+      "anchor": "**p 值（p-value）**",
+      "exact_wiki_passage": "**p 值（p-value）**是在 H₀ 為真的前提下，取得「至少與目前一樣極端」的觀察結果的機率。雙尾時：",
+      "teaching_excerpt": "p 值（p-value）是在 H₀ 為真的前提下，取得「至少與目前一樣極端」的觀察結果的機率。",
+      "citations": [
+        {
+          "source_id": "S06",
+          "pdf_page": 20,
+          "reference": "[S06, PDF p.20]"
+        }
+      ],
+      "citation_from_adjacent_paragraph": true
+    }
+  ]
+}

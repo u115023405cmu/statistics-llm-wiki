@@ -1,0 +1,42 @@
+{
+  "id": "02",
+  "title": "為什麼要學統計？",
+  "subtitle": "用樣本理解母體，而不是只憑直覺",
+  "evidence": [
+    {
+      "slide_id": "02",
+      "entry": "wiki/entries/inference-estimation.md",
+      "anchor": "**母體參數（parameter）**",
+      "exact_wiki_passage": "研究對象可能包含數百萬人，無法每個人都調查，因此從樣本推測母體的未知量。**母體參數（parameter）**是描述整體的數值，如母體支持率 \\(p\\)、母體平均 \\(\\mu\\)；**統計量（statistic）**是從樣本計算的數值，如樣本比例 \\(\\hat p\\) 和樣本平均 \\(\\bar X\\)。統計推論用「樣本的統計量」估計「母體的參數」。[S05, PDF p.2]",
+      "teaching_excerpt": "研究對象可能包含數百萬人，無法每個人都調查，因此從樣本推測母體的未知量。母體參數（parameter）是描述整體的數值，如母體支持率 p、母體平均 \\mu；統計量（statistic）是從樣本計算的數值，如樣本比例 \\hat p 和樣本平均 \\bar X。統計推論用「樣本的統計量」估計「母體的參數」。",
+      "citations": [
+        {
+          "source_id": "S05",
+          "pdf_page": 2,
+          "reference": "[S05, PDF p.2]"
+        }
+      ],
+      "citation_from_adjacent_paragraph": false
+    },
+    {
+      "slide_id": "02",
+      "entry": "wiki/entries/inference-estimation.md",
+      "anchor": "**抽樣誤差（sampling error）**",
+      "exact_wiki_passage": "- **抽樣誤差（sampling error）**：不同隨機樣本產生不同統計量。\n- **偏差（bias）**：估計方法有系統性高估或低估母體真值的傾向，例如便利抽樣可能錯估支持率。\n- **標準誤（standard error, SE）**：估計量的抽樣分配標準差，量化抽樣變動，不是單筆觀察值的 SD。[S05, PDF p.6] [S05, PDF p.7]",
+      "teaching_excerpt": "抽樣誤差（sampling error）：不同隨機樣本產生不同統計量。",
+      "citations": [
+        {
+          "source_id": "S05",
+          "pdf_page": 6,
+          "reference": "[S05, PDF p.6]"
+        },
+        {
+          "source_id": "S05",
+          "pdf_page": 7,
+          "reference": "[S05, PDF p.7]"
+        }
+      ],
+      "citation_from_adjacent_paragraph": false
+    }
+  ]
+}

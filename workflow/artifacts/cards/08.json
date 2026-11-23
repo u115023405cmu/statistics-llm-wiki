@@ -1,0 +1,42 @@
+{
+  "id": "08",
+  "title": "隨機變數與期望值",
+  "subtitle": "用數值整理不確定的結果",
+  "evidence": [
+    {
+      "slide_id": "08",
+      "entry": "wiki/entries/probability-and-random-variables.md",
+      "anchor": "**隨機變數（random variable, RV）**",
+      "exact_wiki_passage": "**隨機變數（random variable, RV）**是把隨機實驗的可能結果映射成數值的規則。例如講義中顧客可能購買 iPhone+AirPods、只買 iPhone 或什麼都不買，對應收入 \\(X=970,800,0\\)，機率分別是 \\(0.6,0.3,0.1\\)。[S03, PDF p.24] [S03, PDF p.25]",
+      "teaching_excerpt": "隨機變數（random variable, RV）是把隨機實驗的可能結果映射成數值的規則。例如講義中顧客可能購買 iPhone+AirPods、只買 iPhone 或什麼都不買，對應收入 X=970,800,0，機率分別是 0.6,0.3,0.1。",
+      "citations": [
+        {
+          "source_id": "S03",
+          "pdf_page": 24,
+          "reference": "[S03, PDF p.24]"
+        },
+        {
+          "source_id": "S03",
+          "pdf_page": 25,
+          "reference": "[S03, PDF p.25]"
+        }
+      ],
+      "citation_from_adjacent_paragraph": false
+    },
+    {
+      "slide_id": "08",
+      "entry": "wiki/entries/probability-and-random-variables.md",
+      "anchor": "期望值不一定是一筆真實會發生的交易",
+      "exact_wiki_passage": "因此講義收入期望值是：\\(970(0.6)+800(0.3)+0(0.1)=822\\)。期望值不一定是一筆真實會發生的交易，而是重複過程的機率加權中心。[S03, PDF p.26]",
+      "teaching_excerpt": "因此講義收入期望值是：970(0.6)+800(0.3)+0(0.1)=822。期望值不一定是一筆真實會發生的交易，而是重複過程的機率加權中心。",
+      "citations": [
+        {
+          "source_id": "S03",
+          "pdf_page": 26,
+          "reference": "[S03, PDF p.26]"
+        }
+      ],
+      "citation_from_adjacent_paragraph": false
+    }
+  ]
+}

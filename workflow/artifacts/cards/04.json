@@ -1,0 +1,37 @@
+{
+  "id": "04",
+  "title": "抽樣會讓我們看錯嗎？",
+  "subtitle": "母體、樣本，以及偏差的來源",
+  "evidence": [
+    {
+      "slide_id": "04",
+      "entry": "wiki/entries/data-and-sampling.md",
+      "anchor": "**母體（population）**",
+      "exact_wiki_passage": "**母體（population）**是研究欲推論的所有對象；**樣本（sample）**是實際取得資料的一部分。若要知道某校學生平均完成學位所需時間，觀察到兩名延畢學生的故事，不足以支持整體平均很高。這是把零星個案誤認為代表性資料的問題。 [S01, PDF p.12]",
+      "teaching_excerpt": "母體（population）是研究欲推論的所有對象；樣本（sample）是實際取得資料的一部分。若要知道某校學生平均完成學位所需時間，觀察到兩名延畢學生的故事，不足以支持整體平均很高。這是把零星個案誤認為代表性資料的問題。",
+      "citations": [
+        {
+          "source_id": "S01",
+          "pdf_page": 12,
+          "reference": "[S01, PDF p.12]"
+        }
+      ],
+      "citation_from_adjacent_paragraph": false
+    },
+    {
+      "slide_id": "04",
+      "entry": "wiki/entries/data-and-sampling.md",
+      "anchor": "**未回覆偏差（non-response bias）**",
+      "exact_wiki_passage": "- **未回覆偏差（non-response bias）**：被抽到的人不回覆，而回覆與否又和研究特徵有關。\n- **涵蓋偏差（coverage bias）**：抽樣名單或調查地點未涵蓋目標母體；例如只在單一校門口攔訪。 [S01, PDF p.13]",
+      "teaching_excerpt": "未回覆偏差（non-response bias）：被抽到的人不回覆，而回覆與否又和研究特徵有關。",
+      "citations": [
+        {
+          "source_id": "S01",
+          "pdf_page": 13,
+          "reference": "[S01, PDF p.13]"
+        }
+      ],
+      "citation_from_adjacent_paragraph": false
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "source_ids": [
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S05",
+    "S06"
+  ],
+  "source_count": 6,
+  "slides": 12,
+  "adjacent_paragraph_citations_to_review": [
+    "10: inference-estimation.md / 點估計只給一個值",
+    "11: inference-hypothesis-testing.md / **p 值（p-value）**",
+    "12: inference-hypothesis-testing.md / **p 值（p-value）**"
+  ],
+  "meaning": "來源 ID 與 Wiki 字串存在，不等於語意審查已通過"
+}

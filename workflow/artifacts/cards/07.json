@@ -1,0 +1,42 @@
+{
+  "id": "07",
+  "title": "機率不是憑感覺",
+  "subtitle": "條件不一樣，分母就不一樣",
+  "evidence": [
+    {
+      "slide_id": "07",
+      "entry": "wiki/entries/probability-and-random-variables.md",
+      "anchor": "在 1,822 張照片中",
+      "exact_wiki_passage": "課堂照片分類的混淆表顯示：在 1,822 張照片中，219 張被系統預測為 fashion，其中 197 張真的屬於 fashion。[S03, PDF p.18]",
+      "teaching_excerpt": "課堂照片分類的混淆表顯示：在 1,822 張照片中，219 張被系統預測為 fashion，其中 197 張真的屬於 fashion。",
+      "citations": [
+        {
+          "source_id": "S03",
+          "pdf_page": 18,
+          "reference": "[S03, PDF p.18]"
+        }
+      ],
+      "citation_from_adjacent_paragraph": false
+    },
+    {
+      "slide_id": "07",
+      "entry": "wiki/entries/probability-and-random-variables.md",
+      "anchor": "這兩個條件機率不一樣",
+      "exact_wiki_passage": "這兩個條件機率不一樣；不能把 \\(P(A\\mid B)\\) 和 \\(P(B\\mid A)\\) 對調。這些比率由講義的交叉表計算，而非講義明示為同一個指標。[S03, PDF p.18] [S03, PDF p.20]",
+      "teaching_excerpt": "這兩個條件機率不一樣；不能把 P(A\\mid B) 和 P(B\\mid A) 對調。這些比率由講義的交叉表計算，而非講義明示為同一個指標。",
+      "citations": [
+        {
+          "source_id": "S03",
+          "pdf_page": 18,
+          "reference": "[S03, PDF p.18]"
+        },
+        {
+          "source_id": "S03",
+          "pdf_page": 20,
+          "reference": "[S03, PDF p.20]"
+        }
+      ],
+      "citation_from_adjacent_paragraph": false
+    }
+  ]
+}

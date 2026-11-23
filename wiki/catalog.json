@@ -1,0 +1,44 @@
+{
+  "project": "Statistics Learning Wiki",
+  "status": "step3_wiki_created",
+  "ingested_source_count": 6,
+  "topics": 5,
+  "entries": [
+    {
+      "title": "資料與抽樣",
+      "path": "wiki/entries/data-and-sampling.md",
+      "primary_source": "S01",
+      "description": "資料分類、抽樣與實驗設計"
+    },
+    {
+      "title": "敘述統計",
+      "path": "wiki/entries/summarizing-data.md",
+      "primary_source": "S02",
+      "description": "平均與變異、圖表、偏態與離群"
+    },
+    {
+      "title": "機率",
+      "path": "wiki/entries/probability-and-random-variables.md",
+      "primary_source": "S03",
+      "description": "機率規則、條件機率、隨機變數與相關"
+    },
+    {
+      "title": "隨機變數與分配",
+      "path": "wiki/entries/random-variable-distributions.md",
+      "primary_source": "S04",
+      "description": "常態與伯努利、二項、幾何、卜瓦松"
+    },
+    {
+      "title": "統計推論：估計",
+      "path": "wiki/entries/inference-estimation.md",
+      "primary_source": "S05",
+      "description": "CLT、估計量與信賴區間"
+    },
+    {
+      "title": "統計推論：假設檢定",
+      "path": "wiki/entries/inference-hypothesis-testing.md",
+      "primary_source": "S06",
+      "description": "H0/HA、p值、兩類錯誤與Z檢定"
+    }
+  ]
+}
