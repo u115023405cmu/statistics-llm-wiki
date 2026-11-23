@@ -1,0 +1,157 @@
+{
+  "timestamp": "2026-11-23T16:43:29+08:00",
+  "checks": [
+    {
+      "name": "HTML 頁數 10–12",
+      "passed": true,
+      "details": "12 頁"
+    },
+    {
+      "name": "頁面 ID 不重複",
+      "passed": true,
+      "details": "['s-01', 's-02', 's-03', 's-04', 's-05', 's-06', 's-07', 's-08', 's-09', 's-10', 's-11', 's-12']"
+    },
+    {
+      "name": "所有 Wiki 連結有效",
+      "passed": true,
+      "details": "22 個引用連結"
+    },
+    {
+      "name": "來源錨點 02 **母體參數（parameter）**",
+      "passed": true,
+      "details": "Wiki 存在指定的原文定位點"
+    },
+    {
+      "name": "來源錨點 02 **抽樣誤差（sampling erro",
+      "passed": true,
+      "details": "Wiki 存在指定的原文定位點"
+    },
+    {
+      "name": "來源錨點 03 **觀察值（observation/ca",
+      "passed": true,
+      "details": "Wiki 存在指定的原文定位點"
+    },
+    {
+      "name": "來源錨點 03 **解釋變數（explanatory v",
+      "passed": true,
+      "details": "Wiki 存在指定的原文定位點"
+    },
+    {
+      "name": "來源錨點 04 **母體（population）**",
+      "passed": true,
+      "details": "Wiki 存在指定的原文定位點"
+    },
+    {
+      "name": "來源錨點 04 **未回覆偏差（non-response",
+      "passed": true,
+      "details": "Wiki 存在指定的原文定位點"
+    },
+    {
+      "name": "來源錨點 05 **散佈圖（scatterplot）**",
+      "passed": true,
+      "details": "Wiki 存在指定的原文定位點"
+    },
+    {
+      "name": "來源錨點 05 **直方圖（histogram）**",
+      "passed": true,
+      "details": "Wiki 存在指定的原文定位點"
+    },
+    {
+      "name": "來源錨點 06 資料排序後，**中位數（median）*",
+      "passed": true,
+      "details": "Wiki 存在指定的原文定位點"
+    },
+    {
+      "name": "來源錨點 06 當資料非常右偏、少數值遠大於其他值",
+      "passed": true,
+      "details": "Wiki 存在指定的原文定位點"
+    },
+    {
+      "name": "來源錨點 07 在 1,822 張照片中",
+      "passed": true,
+      "details": "Wiki 存在指定的原文定位點"
+    },
+    {
+      "name": "來源錨點 07 這兩個條件機率不一樣",
+      "passed": true,
+      "details": "Wiki 存在指定的原文定位點"
+    },
+    {
+      "name": "來源錨點 08 **隨機變數（random variab",
+      "passed": true,
+      "details": "Wiki 存在指定的原文定位點"
+    },
+    {
+      "name": "來源錨點 08 期望值不一定是一筆真實會發生的交易",
+      "passed": true,
+      "details": "Wiki 存在指定的原文定位點"
+    },
+    {
+      "name": "來源錨點 09 的意思是：觀察值",
+      "passed": true,
+      "details": "Wiki 存在指定的原文定位點"
+    },
+    {
+      "name": "來源錨點 09 **68–95–99.7 法則**",
+      "passed": true,
+      "details": "Wiki 存在指定的原文定位點"
+    },
+    {
+      "name": "來源錨點 10 點估計只給一個值",
+      "passed": true,
+      "details": "Wiki 存在指定的原文定位點"
+    },
+    {
+      "name": "來源錨點 10 **95% 的正確解讀**",
+      "passed": true,
+      "details": "Wiki 存在指定的原文定位點"
+    },
+    {
+      "name": "來源錨點 11 若有關於母體的主張",
+      "passed": true,
+      "details": "Wiki 存在指定的原文定位點"
+    },
+    {
+      "name": "來源錨點 11 **p 值（p-value）**",
+      "passed": true,
+      "details": "Wiki 存在指定的原文定位點"
+    },
+    {
+      "name": "來源錨點 12 **母體（population）**",
+      "passed": true,
+      "details": "Wiki 存在指定的原文定位點"
+    },
+    {
+      "name": "來源錨點 12 **p 值（p-value）**",
+      "passed": true,
+      "details": "Wiki 存在指定的原文定位點"
+    },
+    {
+      "name": "至少五份來源",
+      "passed": true,
+      "details": "['S01', 'S02', 'S03', 'S04', 'S05', 'S06']"
+    },
+    {
+      "name": "導覽邏輯存在",
+      "passed": true,
+      "details": "前進、後退、頁碼"
+    }
+  ],
+  "errors": [],
+  "passed": 27,
+  "failed": 0,
+  "source_coverage": {
+    "S05": 6,
+    "S01": 6,
+    "S02": 11,
+    "S03": 6,
+    "S04": 2,
+    "S06": 4
+  },
+  "adjacent_citation_flags": [
+    "點估計只給一個值",
+    "**p 值（p-value）**",
+    "**p 值（p-value）**"
+  ],
+  "scope_note": "結構與來源標記檢查，並非語義忠實度或教學正確性的獨立審查"
+}

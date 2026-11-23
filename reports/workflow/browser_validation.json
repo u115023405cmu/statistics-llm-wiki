@@ -1,0 +1,265 @@
+{
+  "time": "2026-11-23T16:43:29+08:00",
+  "viewports": [
+    {
+      "viewport": "1280x800",
+      "slides": [
+        {
+          "slide": 1,
+          "overflows": false,
+          "metrics": {
+            "clientWidth": 1200,
+            "scrollWidth": 1200,
+            "clientHeight": 684,
+            "scrollHeight": 684
+          }
+        },
+        {
+          "slide": 2,
+          "overflows": false,
+          "metrics": {
+            "clientWidth": 1200,
+            "scrollWidth": 1200,
+            "clientHeight": 684,
+            "scrollHeight": 684
+          }
+        },
+        {
+          "slide": 3,
+          "overflows": false,
+          "metrics": {
+            "clientWidth": 1200,
+            "scrollWidth": 1200,
+            "clientHeight": 684,
+            "scrollHeight": 684
+          }
+        },
+        {
+          "slide": 4,
+          "overflows": false,
+          "metrics": {
+            "clientWidth": 1200,
+            "scrollWidth": 1200,
+            "clientHeight": 684,
+            "scrollHeight": 684
+          }
+        },
+        {
+          "slide": 5,
+          "overflows": false,
+          "metrics": {
+            "clientWidth": 1200,
+            "scrollWidth": 1200,
+            "clientHeight": 684,
+            "scrollHeight": 684
+          }
+        },
+        {
+          "slide": 6,
+          "overflows": false,
+          "metrics": {
+            "clientWidth": 1200,
+            "scrollWidth": 1200,
+            "clientHeight": 684,
+            "scrollHeight": 684
+          }
+        },
+        {
+          "slide": 7,
+          "overflows": false,
+          "metrics": {
+            "clientWidth": 1200,
+            "scrollWidth": 1200,
+            "clientHeight": 684,
+            "scrollHeight": 684
+          }
+        },
+        {
+          "slide": 8,
+          "overflows": false,
+          "metrics": {
+            "clientWidth": 1200,
+            "scrollWidth": 1200,
+            "clientHeight": 684,
+            "scrollHeight": 684
+          }
+        },
+        {
+          "slide": 9,
+          "overflows": false,
+          "metrics": {
+            "clientWidth": 1200,
+            "scrollWidth": 1200,
+            "clientHeight": 684,
+            "scrollHeight": 684
+          }
+        },
+        {
+          "slide": 10,
+          "overflows": false,
+          "metrics": {
+            "clientWidth": 1200,
+            "scrollWidth": 1200,
+            "clientHeight": 684,
+            "scrollHeight": 684
+          }
+        },
+        {
+          "slide": 11,
+          "overflows": false,
+          "metrics": {
+            "clientWidth": 1200,
+            "scrollWidth": 1200,
+            "clientHeight": 684,
+            "scrollHeight": 684
+          }
+        },
+        {
+          "slide": 12,
+          "overflows": false,
+          "metrics": {
+            "clientWidth": 1200,
+            "scrollWidth": 1200,
+            "clientHeight": 684,
+            "scrollHeight": 684
+          }
+        }
+      ],
+      "navigation": {
+        "next": true,
+        "prev": true
+      }
+    },
+    {
+      "viewport": "390x844",
+      "slides": [
+        {
+          "slide": 1,
+          "overflows": false,
+          "metrics": {
+            "clientWidth": 390,
+            "scrollWidth": 390,
+            "clientHeight": 778,
+            "scrollHeight": 778
+          }
+        },
+        {
+          "slide": 2,
+          "overflows": false,
+          "metrics": {
+            "clientWidth": 390,
+            "scrollWidth": 390,
+            "clientHeight": 778,
+            "scrollHeight": 778
+          }
+        },
+        {
+          "slide": 3,
+          "overflows": false,
+          "metrics": {
+            "clientWidth": 390,
+            "scrollWidth": 390,
+            "clientHeight": 778,
+            "scrollHeight": 778
+          }
+        },
+        {
+          "slide": 4,
+          "overflows": false,
+          "metrics": {
+            "clientWidth": 390,
+            "scrollWidth": 390,
+            "clientHeight": 778,
+            "scrollHeight": 778
+          }
+        },
+        {
+          "slide": 5,
+          "overflows": false,
+          "metrics": {
+            "clientWidth": 390,
+            "scrollWidth": 390,
+            "clientHeight": 778,
+            "scrollHeight": 778
+          }
+        },
+        {
+          "slide": 6,
+          "overflows": false,
+          "metrics": {
+            "clientWidth": 390,
+            "scrollWidth": 390,
+            "clientHeight": 778,
+            "scrollHeight": 778
+          }
+        },
+        {
+          "slide": 7,
+          "overflows": false,
+          "metrics": {
+            "clientWidth": 390,
+            "scrollWidth": 390,
+            "clientHeight": 778,
+            "scrollHeight": 778
+          }
+        },
+        {
+          "slide": 8,
+          "overflows": false,
+          "metrics": {
+            "clientWidth": 390,
+            "scrollWidth": 390,
+            "clientHeight": 778,
+            "scrollHeight": 778
+          }
+        },
+        {
+          "slide": 9,
+          "overflows": false,
+          "metrics": {
+            "clientWidth": 390,
+            "scrollWidth": 390,
+            "clientHeight": 778,
+            "scrollHeight": 778
+          }
+        },
+        {
+          "slide": 10,
+          "overflows": false,
+          "metrics": {
+            "clientWidth": 390,
+            "scrollWidth": 390,
+            "clientHeight": 778,
+            "scrollHeight": 778
+          }
+        },
+        {
+          "slide": 11,
+          "overflows": false,
+          "metrics": {
+            "clientWidth": 390,
+            "scrollWidth": 390,
+            "clientHeight": 778,
+            "scrollHeight": 778
+          }
+        },
+        {
+          "slide": 12,
+          "overflows": false,
+          "metrics": {
+            "clientWidth": 390,
+            "scrollWidth": 390,
+            "clientHeight": 778,
+            "scrollHeight": 778
+          }
+        }
+      ],
+      "navigation": {
+        "next": true,
+        "prev": true
+      }
+    }
+  ],
+  "status": "pass",
+  "issues": []
+}

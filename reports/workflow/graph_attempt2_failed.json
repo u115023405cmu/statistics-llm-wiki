@@ -1,0 +1,91 @@
+{
+  "started": "2026-11-23T16:25:35+08:00",
+  "finished": "2026-11-23T16:25:38+08:00",
+  "status": "stopped",
+  "maximum_local_revisions": 3,
+  "executed_nodes": [
+    {
+      "time": "2026-11-23T16:25:36+08:00",
+      "node": "A: Wiki 核對",
+      "attempt": 1,
+      "status": "PASS",
+      "detail": "6 份來源、6 篇條目；既有腳本通過",
+      "files": [
+        "reports/audit_wiki.json",
+        "wiki/sources/source_registry.csv"
+      ]
+    },
+    {
+      "time": "2026-11-23T16:25:36+08:00",
+      "node": "B: Wiki 證據卡",
+      "attempt": 1,
+      "status": "PASS",
+      "detail": "12 張卡、22 項來源段落",
+      "files": [
+        "workflow/artifacts/cards/",
+        "workflow/artifacts/evidence_cards.json"
+      ]
+    },
+    {
+      "time": "2026-11-23T16:25:36+08:00",
+      "node": "C: 來源覆蓋檢查",
+      "attempt": 1,
+      "status": "PASS",
+      "detail": "覆蓋 6 份已 ingest 講義（S01, S02, S03, S04, S05, S06）；4 條引用須確認相鄰段落",
+      "files": [
+        "workflow/artifacts/coverage.json"
+      ]
+    },
+    {
+      "time": "2026-11-23T16:25:36+08:00",
+      "node": "D: 教學大綱",
+      "attempt": 1,
+      "status": "PASS",
+      "detail": "以來源卡生成 12 頁大綱",
+      "files": [
+        "workflow/artifacts/outline.md"
+      ]
+    },
+    {
+      "time": "2026-11-23T16:25:36+08:00",
+      "node": "E: HTML 原型生成",
+      "attempt": 1,
+      "status": "PASS",
+      "detail": "12 頁 HTML 原型；文字縮放 1.00",
+      "files": [
+        "slides/workflow-preview.html"
+      ]
+    },
+    {
+      "time": "2026-11-23T16:25:36+08:00",
+      "node": "F: 靜態檢查",
+      "attempt": 1,
+      "status": "PASS",
+      "detail": "27 個檢查項目通過、22 個引用連結",
+      "files": [
+        "reports/workflow/static_validation.json"
+      ]
+    },
+    {
+      "time": "2026-11-23T16:25:38+08:00",
+      "node": "unexpected",
+      "attempt": 1,
+      "status": "STOP",
+      "detail": "Error('Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at file:///mnt/data/Statistics-LLM-Wiki-Step4/slides/workflow-preview.html\\nCall log:\\n  - navigating to \"file:///mnt/data/Statistics-LLM-Wiki-Step4/slides/workflow-preview.html\", waiting until \"load\"\\n')"
+    }
+  ],
+  "problems": [
+    {
+      "node": "unexpected",
+      "detail": "Error('Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at file:///mnt/data/Statistics-LLM-Wiki-Step4/slides/workflow-preview.html\\nCall log:\\n  - navigating to \"file:///mnt/data/Statistics-LLM-Wiki-Step4/slides/workflow-preview.html\", waiting until \"load\"\\n')",
+      "traceback": "Traceback (most recent call last):\n  File \"/mnt/data/Statistics-LLM-Wiki-Step4/workflow/run_graph.py\", line 297, in run\n    browser=test_browser(events,attempt)\n  File \"/mnt/data/Statistics-LLM-Wiki-Step4/workflow/run_graph.py\", line 255, in test_browser\n    page.goto((SLIDES/'workflow-preview.html').resolve().as_uri(),wait_until='load')\n    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/pyvenv/lib/python3.13/site-packages/playwright/sync_api/_generated.py\", line 9050, in goto\n    self._sync(\n    ~~~~~~~~~~^\n        self._impl_obj.goto(\n        ^^^^^^^^^^^^^^^^^^^^\n            url=url, timeout=timeout, waitUntil=wait_until, referer=referer\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n        )\n        ^\n    )\n    ^\n  File \"/opt/pyvenv/lib/python3.13/site-packages/playwright/_impl/_sync_base.py\", line 115, in _sync\n    return task.result()\n           ~~~~~~~~~~~^^\n  File \"/opt/pyvenv/lib/python3.13/site-packages/playwright/_impl/_page.py\", line 552, in goto\n    return await self._main_frame.goto(**locals_to_params(locals()))\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/pyvenv/lib/python3.13/site-packages/playwright/_impl/_frame.py\", line 153, in goto\n    await self._channel.send(\n        \"goto\", self._navigation_timeout, locals_to_params(locals())\n    )\n  File \"/opt/pyvenv/lib/python3.13/site-packages/playwright/_impl/_connection.py\", line 69, in send\n    return await self._connection.wrap_api_call(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<3 lines>...\n    )\n    ^\n  File \"/opt/pyvenv/lib/python3.13/site-packages/playwright/_impl/_connection.py\", line 559, in wrap_api_call\n    raise rewrite_error(error, f\"{parsed_st['apiName']}: {error}\") from None\nplaywright._impl._errors.Error: Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at file:///mnt/data/Statistics-LLM-Wiki-Step4/slides/workflow-preview.html\nCall log:\n  - navigating to \"file:///mnt/data/Statistics-LLM-Wiki-Step4/slides/workflow-preview.html\", waiting until \"load\"\n\n"
+    }
+  ],
+  "limitations": [
+    "Wiki 自動稽核不代表逐句語義忠實",
+    "相鄰段落引用需要人工核對",
+    "HTML 為工作流程原型，不是最終教學簡報",
+    "未進行不同模型/不同對話的獨立內容審查",
+    "公開部署不在本步驟執行"
+  ]
+}

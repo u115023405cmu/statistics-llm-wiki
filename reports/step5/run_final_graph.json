@@ -1,0 +1,48 @@
+{
+  "time": "2026-11-23T16:43:44+08:00",
+  "state": "ready_for_user_review",
+  "node_results": [
+    {
+      "node": "A — 核對 Wiki",
+      "file": "scripts/audit_wiki.py",
+      "return_code": 0,
+      "stdout": "Wiki audit: 46/46 checks passed, 0 errors. 6 entries, 247 anchored citations.\n",
+      "stderr": "",
+      "status": "PASS"
+    },
+    {
+      "node": "B/C/D/E — STEP4 證據卡及 HTML 原型",
+      "file": "workflow/run_graph.py",
+      "return_code": 0,
+      "stdout": "Wiki audit: 46/46 checks passed, 0 errors. 6 entries, 247 anchored citations.\n[A: Wiki 核對][PASS][1] 6 份來源、6 篇條目；既有腳本通過\n[B: Wiki 證據卡][PASS][1] 12 張卡、22 項來源段落\n[C: 來源覆蓋檢查][PASS][1] 覆蓋 6 份已 ingest 講義（S01, S02, S03, S04, S05, S06）；3 條引用須確認相鄰段落\n[D: 教學大綱][PASS][1] 以來源卡生成 12 頁大綱\n[E: HTML 原型生成][PASS][1] 12 頁 HTML 原型；文字縮放 1.00\n[F: 靜態檢查][PASS][1] 27 個檢查項目通過、22 個引用連結\n[G: 瀏覽器測試][PASS][1] Chrome 兩種尺寸、按鈕與 24 個頁面檢查；0 項問題\n[H: 原型交付][PASS][1] 產出可以讀取的 HTML 工作流程原型；語義審查、教學精修與公開部署尚未完成\nGraph status: prototype_ready_review_pending\n",
+      "stderr": "",
+      "status": "PASS"
+    },
+    {
+      "node": "F — 正式教學 HTML 產生",
+      "file": "workflow/build_final_deck.py",
+      "return_code": 0,
+      "stdout": "Built slides/statistics-teaching.html 83336 bytes\nReference count 46 unique sources 6\n",
+      "stderr": "",
+      "status": "PASS"
+    },
+    {
+      "node": "G — 簡報靜態引用與數學驗證",
+      "file": "workflow/check_final_deck.py",
+      "return_code": 0,
+      "stdout": "STEP5 STATIC: 187/187 PASS, 0 FAILED\n",
+      "stderr": "",
+      "status": "PASS"
+    },
+    {
+      "node": "H — Chromium 桌機／手機驗證",
+      "file": "workflow/check_final_deck_browser.py",
+      "return_code": 0,
+      "stdout": "STEP5 BROWSER: 46/46 PASS, 0 FAIL\n",
+      "stderr": "",
+      "status": "PASS"
+    }
+  ],
+  "limits": "每階段出錯都停止，不擅自更動來源。局部重試最多三輪的排版 Loop 在 workflow/run_graph.py；這次正式版修了手機版 CSS 一次。",
+  "pending": "原始講義的獨立逐句學術審查與 GitHub Pages 公開部署，仍需要另外執行。"
+}

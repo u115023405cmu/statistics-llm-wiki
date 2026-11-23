@@ -1,0 +1,252 @@
+{
+  "time": "2026-11-23",
+  "source_count": 6,
+  "ingested": 6,
+  "wiki_entries": 6,
+  "source_reference_count": 247,
+  "source_ids_in_entries": [
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S05",
+    "S06"
+  ],
+  "checks": [
+    {
+      "check": "六個來源登記且 ingest 標記完成",
+      "ok": true,
+      "detail": "登記 6，已 ingest 6"
+    },
+    {
+      "check": "至少五篇知識條目",
+      "ok": true,
+      "detail": "有 6 篇"
+    },
+    {
+      "check": "條目長度與引用 data-and-sampling.md",
+      "ok": true,
+      "detail": "文字數 3364，引用數 37"
+    },
+    {
+      "check": "條目長度與引用 inference-estimation.md",
+      "ok": true,
+      "detail": "文字數 3941，引用數 38"
+    },
+    {
+      "check": "條目長度與引用 inference-hypothesis-testing.md",
+      "ok": true,
+      "detail": "文字數 3687，引用數 38"
+    },
+    {
+      "check": "條目長度與引用 probability-and-random-variables.md",
+      "ok": true,
+      "detail": "文字數 3829，引用數 46"
+    },
+    {
+      "check": "條目長度與引用 random-variable-distributions.md",
+      "ok": true,
+      "detail": "文字數 4171，引用數 45"
+    },
+    {
+      "check": "條目長度與引用 summarizing-data.md",
+      "ok": true,
+      "detail": "文字數 3157，引用數 43"
+    },
+    {
+      "check": "來源卡及頁面索引 S01",
+      "ok": true,
+      "detail": "wiki/sources/cards/S01.md / wiki/sources/page_maps/S01-page-map.md"
+    },
+    {
+      "check": "來源卡至少5個定位點 S01",
+      "ok": true,
+      "detail": "14 個定位頁"
+    },
+    {
+      "check": "逐頁索引頁數 S01",
+      "ok": true,
+      "detail": "22/22 頁"
+    },
+    {
+      "check": "本機 PDF SHA-256 S01",
+      "ok": true,
+      "detail": "01_IntroToData_2026h.pdf"
+    },
+    {
+      "check": "來源卡及頁面索引 S02",
+      "ok": true,
+      "detail": "wiki/sources/cards/S02.md / wiki/sources/page_maps/S02-page-map.md"
+    },
+    {
+      "check": "來源卡至少5個定位點 S02",
+      "ok": true,
+      "detail": "16 個定位頁"
+    },
+    {
+      "check": "逐頁索引頁數 S02",
+      "ok": true,
+      "detail": "27/27 頁"
+    },
+    {
+      "check": "本機 PDF SHA-256 S02",
+      "ok": true,
+      "detail": "02_SumData_2026h.pdf"
+    },
+    {
+      "check": "來源卡及頁面索引 S03",
+      "ok": true,
+      "detail": "wiki/sources/cards/S03.md / wiki/sources/page_maps/S03-page-map.md"
+    },
+    {
+      "check": "來源卡至少5個定位點 S03",
+      "ok": true,
+      "detail": "16 個定位頁"
+    },
+    {
+      "check": "逐頁索引頁數 S03",
+      "ok": true,
+      "detail": "40/40 頁"
+    },
+    {
+      "check": "本機 PDF SHA-256 S03",
+      "ok": true,
+      "detail": "03_Probability_2026h.pdf"
+    },
+    {
+      "check": "來源卡及頁面索引 S04",
+      "ok": true,
+      "detail": "wiki/sources/cards/S04.md / wiki/sources/page_maps/S04-page-map.md"
+    },
+    {
+      "check": "來源卡至少5個定位點 S04",
+      "ok": true,
+      "detail": "15 個定位頁"
+    },
+    {
+      "check": "逐頁索引頁數 S04",
+      "ok": true,
+      "detail": "33/33 頁"
+    },
+    {
+      "check": "本機 PDF SHA-256 S04",
+      "ok": true,
+      "detail": "04_Distributions_2026h.pdf"
+    },
+    {
+      "check": "來源卡及頁面索引 S05",
+      "ok": true,
+      "detail": "wiki/sources/cards/S05.md / wiki/sources/page_maps/S05-page-map.md"
+    },
+    {
+      "check": "來源卡至少5個定位點 S05",
+      "ok": true,
+      "detail": "16 個定位頁"
+    },
+    {
+      "check": "逐頁索引頁數 S05",
+      "ok": true,
+      "detail": "27/27 頁"
+    },
+    {
+      "check": "本機 PDF SHA-256 S05",
+      "ok": true,
+      "detail": "05_InferenceEst_2026h.pdf"
+    },
+    {
+      "check": "來源卡及頁面索引 S06",
+      "ok": true,
+      "detail": "wiki/sources/cards/S06.md / wiki/sources/page_maps/S06-page-map.md"
+    },
+    {
+      "check": "來源卡至少5個定位點 S06",
+      "ok": true,
+      "detail": "17 個定位頁"
+    },
+    {
+      "check": "逐頁索引頁數 S06",
+      "ok": true,
+      "detail": "28/28 頁"
+    },
+    {
+      "check": "本機 PDF SHA-256 S06",
+      "ok": true,
+      "detail": "Week7_InferenceHypTest_2026h.pdf"
+    },
+    {
+      "check": "六份來源都有被 Wiki 引用",
+      "ok": true,
+      "detail": "已引用來源 ['S01', 'S02', 'S03', 'S04', 'S05', 'S06']"
+    },
+    {
+      "check": "計算驗證 S02 sample variance",
+      "ok": true,
+      "detail": "實際 12.8000000，預期約 12.8，容許 1e-09"
+    },
+    {
+      "check": "計算驗證 S03 expected revenue",
+      "ok": true,
+      "detail": "實際 822.0000000，預期約 822，容許 1e-09"
+    },
+    {
+      "check": "計算驗證 S03 variance revenue",
+      "ok": true,
+      "detail": "實際 80856.0000000，預期約 80856，容許 1e-09"
+    },
+    {
+      "check": "計算驗證 S03 conditional P",
+      "ok": true,
+      "detail": "實際 0.8995434，預期約 0.9，容許 0.0007"
+    },
+    {
+      "check": "計算驗證 S04 geometric",
+      "ok": true,
+      "detail": "實際 0.0153600，預期約 0.01536，容許 1e-09"
+    },
+    {
+      "check": "計算驗證 S04 binomial",
+      "ok": true,
+      "detail": "實際 0.2500000，預期約 0.25，容許 1e-09"
+    },
+    {
+      "check": "計算驗證 S05 CI lower",
+      "ok": true,
+      "detail": "實際 0.8673774，預期約 0.867，容許 0.0005"
+    },
+    {
+      "check": "計算驗證 S05 CI upper",
+      "ok": true,
+      "detail": "實際 0.9066226，預期約 0.907，容許 0.0005"
+    },
+    {
+      "check": "計算驗證 S05 self example lower",
+      "ok": true,
+      "detail": "實際 0.5519900，預期約 0.552，容許 0.0005"
+    },
+    {
+      "check": "計算驗證 S05 self example upper",
+      "ok": true,
+      "detail": "實際 0.6480100，預期約 0.648，容許 0.0005"
+    },
+    {
+      "check": "計算驗證 S06 exact z",
+      "ok": true,
+      "detail": "實際 -8.2219219，預期約 -8.22，容許 0.01"
+    },
+    {
+      "check": "計算驗證 S06 rounded intermediate z",
+      "ok": true,
+      "detail": "實際 -8.1250000，預期約 -8.13，容許 0.01"
+    },
+    {
+      "check": "計算驗證 S06 self example z",
+      "ok": true,
+      "detail": "實際 -2.8284271，預期約 -2.83，容許 0.01"
+    }
+  ],
+  "passed": 46,
+  "failed": 0,
+  "errors": [],
+  "warnings": [],
+  "scope_note": "本腳本只核對來源ID、PDF頁碼有效性、檔案SHA、索引完整性及部分自編數值。它不會自動判定整篇內容是否忠於原文，也不會檢查尚未產生的HTML簡報。"
+}

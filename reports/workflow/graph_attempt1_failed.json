@@ -1,0 +1,92 @@
+{
+  "started": "2026-11-23T16:25:23+08:00",
+  "finished": "2026-11-23T16:25:24+08:00",
+  "status": "stopped",
+  "maximum_local_revisions": 3,
+  "executed_nodes": [
+    {
+      "time": "2026-11-23T16:25:24+08:00",
+      "node": "A: Wiki 核對",
+      "attempt": 1,
+      "status": "PASS",
+      "detail": "6 份來源、6 篇條目；既有腳本通過",
+      "files": [
+        "reports/audit_wiki.json",
+        "wiki/sources/source_registry.csv"
+      ]
+    },
+    {
+      "time": "2026-11-23T16:25:24+08:00",
+      "node": "B: Wiki 證據卡",
+      "attempt": 1,
+      "status": "PASS",
+      "detail": "12 張卡、22 項來源段落",
+      "files": [
+        "workflow/artifacts/cards/",
+        "workflow/artifacts/evidence_cards.json"
+      ]
+    },
+    {
+      "time": "2026-11-23T16:25:24+08:00",
+      "node": "C: 來源覆蓋檢查",
+      "attempt": 1,
+      "status": "PASS",
+      "detail": "覆蓋 6 份已 ingest 講義（S01, S02, S03, S04, S05, S06）；4 條引用須確認相鄰段落",
+      "files": [
+        "workflow/artifacts/coverage.json"
+      ]
+    },
+    {
+      "time": "2026-11-23T16:25:24+08:00",
+      "node": "D: 教學大綱",
+      "attempt": 1,
+      "status": "PASS",
+      "detail": "以來源卡生成 12 頁大綱",
+      "files": [
+        "workflow/artifacts/outline.md"
+      ]
+    },
+    {
+      "time": "2026-11-23T16:25:24+08:00",
+      "node": "E: HTML 原型生成",
+      "attempt": 1,
+      "status": "PASS",
+      "detail": "12 頁 HTML 原型；文字縮放 1.00",
+      "files": [
+        "slides/workflow-preview.html"
+      ]
+    },
+    {
+      "time": "2026-11-23T16:25:24+08:00",
+      "node": "F: 靜態檢查",
+      "attempt": 1,
+      "status": "FAIL",
+      "detail": "HTML 缺少引用：[S02, PDF p.6] / HTML 缺少引用：[S02, PDF p.10] / HTML 缺少引用：[S02, PDF p.6]",
+      "files": [
+        "reports/workflow/static_validation.json"
+      ]
+    },
+    {
+      "time": "2026-11-23T16:25:24+08:00",
+      "node": "F",
+      "attempt": 1,
+      "status": "STOP",
+      "detail": "html_structure: ['HTML 缺少引用：[S02, PDF p.6]', 'HTML 缺少引用：[S02, PDF p.10]', 'HTML 缺少引用：[S02, PDF p.6]']；應退回 E"
+    }
+  ],
+  "problems": [
+    {
+      "node": "F",
+      "kind": "html_structure",
+      "detail": "['HTML 缺少引用：[S02, PDF p.6]', 'HTML 缺少引用：[S02, PDF p.10]', 'HTML 缺少引用：[S02, PDF p.6]']",
+      "return_to": "E"
+    }
+  ],
+  "limitations": [
+    "Wiki 自動稽核不代表逐句語義忠實",
+    "相鄰段落引用需要人工核對",
+    "HTML 為工作流程原型，不是最終教學簡報",
+    "未進行不同模型/不同對話的獨立內容審查",
+    "公開部署不在本步驟執行"
+  ]
+}

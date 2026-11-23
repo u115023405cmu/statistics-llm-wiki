@@ -1,0 +1,944 @@
+{
+  "timestamp": "2026-11-23T16:43:33+08:00",
+  "scope": "靜態頁面、來源 ID 與 PDF 頁碼範圍、Wiki 引用字串、導覽存在性、例題算術；不代表 PDF 逐句獨立審核",
+  "total": 187,
+  "pass": 187,
+  "fail": 0,
+  "checks": [
+    {
+      "name": "12 個獨立的教學畫面",
+      "passed": true,
+      "detail": "actual 12"
+    },
+    {
+      "name": "每個畫面都有教學標題",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "正確可辨識的繁體中文文件語系",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "簡報標題與內容主題一致",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "前後頁與全螢幕互動控制",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "HTML 是自包含、沒有外部腳本",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "至少四種內嵌 SVG 圖解",
+      "passed": true,
+      "detail": "actual 5"
+    },
+    {
+      "name": "12 頁來源對照頁面",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "來源覆蓋完整 S01~S06",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "01 頁展示的來源 ID 與 Graph 證據清單一致",
+      "passed": true,
+      "detail": "0 refs"
+    },
+    {
+      "name": "02 頁展示的來源 ID 與 Graph 證據清單一致",
+      "passed": true,
+      "detail": "5 refs"
+    },
+    {
+      "name": "02: 來源 S05 p.2 存在且符合 PDF 頁碼",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "02: 來源 S05 p.2 在 Wiki 有引用",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "02: 來源 S05 p.6 存在且符合 PDF 頁碼",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "02: 來源 S05 p.6 在 Wiki 有引用",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "02: 來源 S05 p.7 存在且符合 PDF 頁碼",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "02: 來源 S05 p.7 在 Wiki 有引用",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "02: 來源 S05 p.10 存在且符合 PDF 頁碼",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "02: 來源 S05 p.10 在 Wiki 有引用",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "02: 來源 S05 p.21 存在且符合 PDF 頁碼",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "02: 來源 S05 p.21 在 Wiki 有引用",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "02 頁有重點結論",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "03 頁展示的來源 ID 與 Graph 證據清單一致",
+      "passed": true,
+      "detail": "4 refs"
+    },
+    {
+      "name": "03: 來源 S01 p.3 存在且符合 PDF 頁碼",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "03: 來源 S01 p.3 在 Wiki 有引用",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "03: 來源 S01 p.5 存在且符合 PDF 頁碼",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "03: 來源 S01 p.5 在 Wiki 有引用",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "03: 來源 S01 p.8 存在且符合 PDF 頁碼",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "03: 來源 S01 p.8 在 Wiki 有引用",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "03: 來源 S01 p.6 存在且符合 PDF 頁碼",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "03: 來源 S01 p.6 在 Wiki 有引用",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "03 頁有重點結論",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "04 頁展示的來源 ID 與 Graph 證據清單一致",
+      "passed": true,
+      "detail": "3 refs"
+    },
+    {
+      "name": "04: 來源 S01 p.12 存在且符合 PDF 頁碼",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "04: 來源 S01 p.12 在 Wiki 有引用",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "04: 來源 S01 p.13 存在且符合 PDF 頁碼",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "04: 來源 S01 p.13 在 Wiki 有引用",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "04: 來源 S01 p.14 存在且符合 PDF 頁碼",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "04: 來源 S01 p.14 在 Wiki 有引用",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "04 頁有重點結論",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "05 頁展示的來源 ID 與 Graph 證據清單一致",
+      "passed": true,
+      "detail": "5 refs"
+    },
+    {
+      "name": "05: 來源 S02 p.4 存在且符合 PDF 頁碼",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "05: 來源 S02 p.4 在 Wiki 有引用",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "05: 來源 S02 p.5 存在且符合 PDF 頁碼",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "05: 來源 S02 p.5 在 Wiki 有引用",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "05: 來源 S02 p.6 存在且符合 PDF 頁碼",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "05: 來源 S02 p.6 在 Wiki 有引用",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "05: 來源 S02 p.10 存在且符合 PDF 頁碼",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "05: 來源 S02 p.10 在 Wiki 有引用",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "05: 來源 S02 p.20 存在且符合 PDF 頁碼",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "05: 來源 S02 p.20 在 Wiki 有引用",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "05 頁有重點結論",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "06 頁展示的來源 ID 與 Graph 證據清單一致",
+      "passed": true,
+      "detail": "4 refs"
+    },
+    {
+      "name": "06: 來源 S02 p.11 存在且符合 PDF 頁碼",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "06: 來源 S02 p.11 在 Wiki 有引用",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "06: 來源 S02 p.15 存在且符合 PDF 頁碼",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "06: 來源 S02 p.15 在 Wiki 有引用",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "06: 來源 S02 p.16 存在且符合 PDF 頁碼",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "06: 來源 S02 p.16 在 Wiki 有引用",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "06: 來源 S02 p.7 存在且符合 PDF 頁碼",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "06: 來源 S02 p.7 在 Wiki 有引用",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "06 頁有重點結論",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "07 頁展示的來源 ID 與 Graph 證據清單一致",
+      "passed": true,
+      "detail": "2 refs"
+    },
+    {
+      "name": "07: 來源 S03 p.18 存在且符合 PDF 頁碼",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "07: 來源 S03 p.18 在 Wiki 有引用",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "07: 來源 S03 p.20 存在且符合 PDF 頁碼",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "07: 來源 S03 p.20 在 Wiki 有引用",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "07 頁有重點結論",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "08 頁展示的來源 ID 與 Graph 證據清單一致",
+      "passed": true,
+      "detail": "3 refs"
+    },
+    {
+      "name": "08: 來源 S03 p.24 存在且符合 PDF 頁碼",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "08: 來源 S03 p.24 在 Wiki 有引用",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "08: 來源 S03 p.25 存在且符合 PDF 頁碼",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "08: 來源 S03 p.25 在 Wiki 有引用",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "08: 來源 S03 p.26 存在且符合 PDF 頁碼",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "08: 來源 S03 p.26 在 Wiki 有引用",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "08 頁有重點結論",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "09 頁展示的來源 ID 與 Graph 證據清單一致",
+      "passed": true,
+      "detail": "4 refs"
+    },
+    {
+      "name": "09: 來源 S04 p.12 存在且符合 PDF 頁碼",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "09: 來源 S04 p.12 在 Wiki 有引用",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "09: 來源 S04 p.22 存在且符合 PDF 頁碼",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "09: 來源 S04 p.22 在 Wiki 有引用",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "09: 來源 S04 p.13 存在且符合 PDF 頁碼",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "09: 來源 S04 p.13 在 Wiki 有引用",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "09: 來源 S04 p.14 存在且符合 PDF 頁碼",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "09: 來源 S04 p.14 在 Wiki 有引用",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "09 頁有重點結論",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "10 頁展示的來源 ID 與 Graph 證據清單一致",
+      "passed": true,
+      "detail": "4 refs"
+    },
+    {
+      "name": "10: 來源 S05 p.21 存在且符合 PDF 頁碼",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "10: 來源 S05 p.21 在 Wiki 有引用",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "10: 來源 S05 p.23 存在且符合 PDF 頁碼",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "10: 來源 S05 p.23 在 Wiki 有引用",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "10: 來源 S05 p.22 存在且符合 PDF 頁碼",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "10: 來源 S05 p.22 在 Wiki 有引用",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "10: 來源 S05 p.10 存在且符合 PDF 頁碼",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "10: 來源 S05 p.10 在 Wiki 有引用",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "10 頁有重點結論",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "11 頁展示的來源 ID 與 Graph 證據清單一致",
+      "passed": true,
+      "detail": "6 refs"
+    },
+    {
+      "name": "11: 來源 S06 p.5 存在且符合 PDF 頁碼",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "11: 來源 S06 p.5 在 Wiki 有引用",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "11: 來源 S06 p.6 存在且符合 PDF 頁碼",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "11: 來源 S06 p.6 在 Wiki 有引用",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "11: 來源 S06 p.20 存在且符合 PDF 頁碼",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "11: 來源 S06 p.20 在 Wiki 有引用",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "11: 來源 S06 p.11 存在且符合 PDF 頁碼",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "11: 來源 S06 p.11 在 Wiki 有引用",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "11: 來源 S06 p.17 存在且符合 PDF 頁碼",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "11: 來源 S06 p.17 在 Wiki 有引用",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "11: 來源 S06 p.19 存在且符合 PDF 頁碼",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "11: 來源 S06 p.19 在 Wiki 有引用",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "11 頁有重點結論",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "12 頁展示的來源 ID 與 Graph 證據清單一致",
+      "passed": true,
+      "detail": "6 refs"
+    },
+    {
+      "name": "12: 來源 S01 p.12 存在且符合 PDF 頁碼",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "12: 來源 S01 p.12 在 Wiki 有引用",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "12: 來源 S06 p.20 存在且符合 PDF 頁碼",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "12: 來源 S06 p.20 在 Wiki 有引用",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "12: 來源 S02 p.5 存在且符合 PDF 頁碼",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "12: 來源 S02 p.5 在 Wiki 有引用",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "12: 來源 S03 p.20 存在且符合 PDF 頁碼",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "12: 來源 S03 p.20 在 Wiki 有引用",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "12: 來源 S04 p.22 存在且符合 PDF 頁碼",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "12: 來源 S04 p.22 在 Wiki 有引用",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "12: 來源 S05 p.22 存在且符合 PDF 頁碼",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "12: 來源 S05 p.22 在 Wiki 有引用",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "12 頁有重點結論",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "必要資料存在：wiki/index.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "必要資料存在：wiki/catalog.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "必要資料存在：workflow/artifacts/evidence_cards.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "必要資料存在：workflow/artifacts/final_slide_refs.json",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "引用連結實際存在：wiki/entries/inference-estimation.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "引用連結實際存在：wiki/entries/inference-estimation.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "引用連結實際存在：wiki/entries/inference-estimation.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "引用連結實際存在：wiki/entries/inference-estimation.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "引用連結實際存在：wiki/entries/inference-estimation.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "引用連結實際存在：wiki/entries/data-and-sampling.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "引用連結實際存在：wiki/entries/data-and-sampling.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "引用連結實際存在：wiki/entries/data-and-sampling.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "引用連結實際存在：wiki/entries/data-and-sampling.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "引用連結實際存在：wiki/entries/data-and-sampling.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "引用連結實際存在：wiki/entries/data-and-sampling.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "引用連結實際存在：wiki/entries/data-and-sampling.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "引用連結實際存在：wiki/entries/summarizing-data.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "引用連結實際存在：wiki/entries/summarizing-data.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "引用連結實際存在：wiki/entries/summarizing-data.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "引用連結實際存在：wiki/entries/summarizing-data.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "引用連結實際存在：wiki/entries/summarizing-data.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "引用連結實際存在：wiki/entries/summarizing-data.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "引用連結實際存在：wiki/entries/summarizing-data.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "引用連結實際存在：wiki/entries/summarizing-data.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "引用連結實際存在：wiki/entries/summarizing-data.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "引用連結實際存在：wiki/entries/probability-and-random-variables.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "引用連結實際存在：wiki/entries/probability-and-random-variables.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "引用連結實際存在：wiki/entries/probability-and-random-variables.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "引用連結實際存在：wiki/entries/probability-and-random-variables.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "引用連結實際存在：wiki/entries/probability-and-random-variables.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "引用連結實際存在：wiki/entries/random-variable-distributions.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "引用連結實際存在：wiki/entries/random-variable-distributions.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "引用連結實際存在：wiki/entries/random-variable-distributions.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "引用連結實際存在：wiki/entries/random-variable-distributions.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "引用連結實際存在：wiki/entries/inference-estimation.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "引用連結實際存在：wiki/entries/inference-estimation.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "引用連結實際存在：wiki/entries/inference-estimation.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "引用連結實際存在：wiki/entries/inference-estimation.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "引用連結實際存在：wiki/entries/inference-hypothesis-testing.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "引用連結實際存在：wiki/entries/inference-hypothesis-testing.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "引用連結實際存在：wiki/entries/inference-hypothesis-testing.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "引用連結實際存在：wiki/entries/inference-hypothesis-testing.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "引用連結實際存在：wiki/entries/inference-hypothesis-testing.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "引用連結實際存在：wiki/entries/inference-hypothesis-testing.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "引用連結實際存在：wiki/entries/data-and-sampling.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "引用連結實際存在：wiki/entries/inference-hypothesis-testing.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "引用連結實際存在：wiki/index.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "引用連結實際存在：wiki/index.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "引用連結實際存在：wiki/index.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "引用連結實際存在：wiki/index.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第05頁示意直方圖合計 12 筆",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第06頁平均數與中位數",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第06頁極端值改動後結果",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第07頁條件機率 197/219",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第07頁條件機率 197/309",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第08頁期望值 E(X)=822",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第09頁 Z=-0.4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第10頁 95% CI 約 55.2% 到 64.8%",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第11頁 Z 值兩種取捨都已核對",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第03頁有自編案例的標示",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第05頁有自編案例的標示",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第06頁有自編案例的標示",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "第10頁有自編案例的標示",
+      "passed": true,
+      "detail": ""
+    }
+  ]
+}

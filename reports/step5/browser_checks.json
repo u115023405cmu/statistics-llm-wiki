@@ -1,0 +1,244 @@
+{
+  "time": "2026-11-23T16:43:43+08:00",
+  "browser": "Chromium via Playwright; page.set_content() used because sandbox blocks file:// navigation",
+  "viewport_tests": [
+    "1280×800",
+    "390×844"
+  ],
+  "checks_passed": 46,
+  "checks_total": 46,
+  "checks_failed": 0,
+  "checks": [
+    {
+      "check": "desktop 第1頁：可見、無水平溢出",
+      "passed": true,
+      "detail": "h-scroll 0px; v-scroll 0px"
+    },
+    {
+      "check": "desktop 第1頁：不需縱向捲動",
+      "passed": true,
+      "detail": "v-scroll 0px"
+    },
+    {
+      "check": "desktop 第2頁：可見、無水平溢出",
+      "passed": true,
+      "detail": "h-scroll 0px; v-scroll 0px"
+    },
+    {
+      "check": "desktop 第2頁：不需縱向捲動",
+      "passed": true,
+      "detail": "v-scroll 0px"
+    },
+    {
+      "check": "desktop 第3頁：可見、無水平溢出",
+      "passed": true,
+      "detail": "h-scroll 0px; v-scroll 0px"
+    },
+    {
+      "check": "desktop 第3頁：不需縱向捲動",
+      "passed": true,
+      "detail": "v-scroll 0px"
+    },
+    {
+      "check": "desktop：來源面板能開啟",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "desktop：來源面板有 Wiki 檔案連結",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "desktop 第4頁：可見、無水平溢出",
+      "passed": true,
+      "detail": "h-scroll 0px; v-scroll 0px"
+    },
+    {
+      "check": "desktop 第4頁：不需縱向捲動",
+      "passed": true,
+      "detail": "v-scroll 0px"
+    },
+    {
+      "check": "desktop：可開啟 12 頁目錄",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "desktop 第5頁：可見、無水平溢出",
+      "passed": true,
+      "detail": "h-scroll 0px; v-scroll 0px"
+    },
+    {
+      "check": "desktop 第5頁：不需縱向捲動",
+      "passed": true,
+      "detail": "v-scroll 0px"
+    },
+    {
+      "check": "desktop 第6頁：可見、無水平溢出",
+      "passed": true,
+      "detail": "h-scroll 0px; v-scroll 0px"
+    },
+    {
+      "check": "desktop 第6頁：不需縱向捲動",
+      "passed": true,
+      "detail": "v-scroll 0px"
+    },
+    {
+      "check": "desktop 第7頁：可見、無水平溢出",
+      "passed": true,
+      "detail": "h-scroll 0px; v-scroll 0px"
+    },
+    {
+      "check": "desktop 第7頁：不需縱向捲動",
+      "passed": true,
+      "detail": "v-scroll 0px"
+    },
+    {
+      "check": "desktop 第8頁：可見、無水平溢出",
+      "passed": true,
+      "detail": "h-scroll 0px; v-scroll 0px"
+    },
+    {
+      "check": "desktop 第8頁：不需縱向捲動",
+      "passed": true,
+      "detail": "v-scroll 0px"
+    },
+    {
+      "check": "desktop 第9頁：可見、無水平溢出",
+      "passed": true,
+      "detail": "h-scroll 0px; v-scroll 0px"
+    },
+    {
+      "check": "desktop 第9頁：不需縱向捲動",
+      "passed": true,
+      "detail": "v-scroll 0px"
+    },
+    {
+      "check": "desktop 第10頁：可見、無水平溢出",
+      "passed": true,
+      "detail": "h-scroll 0px; v-scroll 0px"
+    },
+    {
+      "check": "desktop 第10頁：不需縱向捲動",
+      "passed": true,
+      "detail": "v-scroll 0px"
+    },
+    {
+      "check": "desktop 第11頁：可見、無水平溢出",
+      "passed": true,
+      "detail": "h-scroll 0px; v-scroll 0px"
+    },
+    {
+      "check": "desktop 第11頁：不需縱向捲動",
+      "passed": true,
+      "detail": "v-scroll 0px"
+    },
+    {
+      "check": "desktop 第12頁：可見、無水平溢出",
+      "passed": true,
+      "detail": "h-scroll 0px; v-scroll 0px"
+    },
+    {
+      "check": "desktop 第12頁：不需縱向捲動",
+      "passed": true,
+      "detail": "v-scroll 0px"
+    },
+    {
+      "check": "desktop：鍵盤上一頁可用",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "desktop：無 JavaScript 例外",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "mobile 第1頁：可見、無水平溢出",
+      "passed": true,
+      "detail": "h-scroll 0px; v-scroll 0px"
+    },
+    {
+      "check": "mobile 第2頁：可見、無水平溢出",
+      "passed": true,
+      "detail": "h-scroll 0px; v-scroll 0px"
+    },
+    {
+      "check": "mobile 第3頁：可見、無水平溢出",
+      "passed": true,
+      "detail": "h-scroll 0px; v-scroll 0px"
+    },
+    {
+      "check": "mobile：來源面板能開啟",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "mobile：來源面板有 Wiki 檔案連結",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "mobile 第4頁：可見、無水平溢出",
+      "passed": true,
+      "detail": "h-scroll 0px; v-scroll 0px"
+    },
+    {
+      "check": "mobile：可開啟 12 頁目錄",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "mobile 第5頁：可見、無水平溢出",
+      "passed": true,
+      "detail": "h-scroll 0px; v-scroll 0px"
+    },
+    {
+      "check": "mobile 第6頁：可見、無水平溢出",
+      "passed": true,
+      "detail": "h-scroll 0px; v-scroll 0px"
+    },
+    {
+      "check": "mobile 第7頁：可見、無水平溢出",
+      "passed": true,
+      "detail": "h-scroll 0px; v-scroll 0px"
+    },
+    {
+      "check": "mobile 第8頁：可見、無水平溢出",
+      "passed": true,
+      "detail": "h-scroll 0px; v-scroll 34px"
+    },
+    {
+      "check": "mobile 第9頁：可見、無水平溢出",
+      "passed": true,
+      "detail": "h-scroll 0px; v-scroll 0px"
+    },
+    {
+      "check": "mobile 第10頁：可見、無水平溢出",
+      "passed": true,
+      "detail": "h-scroll 0px; v-scroll 0px"
+    },
+    {
+      "check": "mobile 第11頁：可見、無水平溢出",
+      "passed": true,
+      "detail": "h-scroll 0px; v-scroll 134px"
+    },
+    {
+      "check": "mobile 第12頁：可見、無水平溢出",
+      "passed": true,
+      "detail": "h-scroll 0px; v-scroll 15px"
+    },
+    {
+      "check": "mobile：鍵盤上一頁可用",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "mobile：無 JavaScript 例外",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "limitation": "這是自動瀏覽器檢查，不等於使用者已在 GitHub Pages 正式部署測試。"
+}

@@ -1,0 +1,98 @@
+{
+  "started": "2026-11-23T16:43:28+08:00",
+  "finished": "2026-11-23T16:43:31+08:00",
+  "status": "prototype_ready_review_pending",
+  "maximum_local_revisions": 3,
+  "executed_nodes": [
+    {
+      "time": "2026-11-23T16:43:29+08:00",
+      "node": "A: Wiki 核對",
+      "attempt": 1,
+      "status": "PASS",
+      "detail": "6 份來源、6 篇條目；既有腳本通過",
+      "files": [
+        "reports/audit_wiki.json",
+        "wiki/sources/source_registry.csv"
+      ]
+    },
+    {
+      "time": "2026-11-23T16:43:29+08:00",
+      "node": "B: Wiki 證據卡",
+      "attempt": 1,
+      "status": "PASS",
+      "detail": "12 張卡、22 項來源段落",
+      "files": [
+        "workflow/artifacts/cards/",
+        "workflow/artifacts/evidence_cards.json"
+      ]
+    },
+    {
+      "time": "2026-11-23T16:43:29+08:00",
+      "node": "C: 來源覆蓋檢查",
+      "attempt": 1,
+      "status": "PASS",
+      "detail": "覆蓋 6 份已 ingest 講義（S01, S02, S03, S04, S05, S06）；3 條引用須確認相鄰段落",
+      "files": [
+        "workflow/artifacts/coverage.json"
+      ]
+    },
+    {
+      "time": "2026-11-23T16:43:29+08:00",
+      "node": "D: 教學大綱",
+      "attempt": 1,
+      "status": "PASS",
+      "detail": "以來源卡生成 12 頁大綱",
+      "files": [
+        "workflow/artifacts/outline.md"
+      ]
+    },
+    {
+      "time": "2026-11-23T16:43:29+08:00",
+      "node": "E: HTML 原型生成",
+      "attempt": 1,
+      "status": "PASS",
+      "detail": "12 頁 HTML 原型；文字縮放 1.00",
+      "files": [
+        "slides/workflow-preview.html"
+      ]
+    },
+    {
+      "time": "2026-11-23T16:43:29+08:00",
+      "node": "F: 靜態檢查",
+      "attempt": 1,
+      "status": "PASS",
+      "detail": "27 個檢查項目通過、22 個引用連結",
+      "files": [
+        "reports/workflow/static_validation.json"
+      ]
+    },
+    {
+      "time": "2026-11-23T16:43:31+08:00",
+      "node": "G: 瀏覽器測試",
+      "attempt": 1,
+      "status": "PASS",
+      "detail": "Chrome 兩種尺寸、按鈕與 24 個頁面檢查；0 項問題",
+      "files": [
+        "reports/workflow/browser_validation.json"
+      ]
+    },
+    {
+      "time": "2026-11-23T16:43:31+08:00",
+      "node": "H: 原型交付",
+      "attempt": 1,
+      "status": "PASS",
+      "detail": "產出可以讀取的 HTML 工作流程原型；語義審查、教學精修與公開部署尚未完成",
+      "files": [
+        "slides/workflow-preview.html"
+      ]
+    }
+  ],
+  "problems": [],
+  "limitations": [
+    "Wiki 自動稽核不代表逐句語義忠實",
+    "相鄰段落引用需要人工核對",
+    "HTML 為工作流程原型，不是最終教學簡報",
+    "未進行不同模型/不同對話的獨立內容審查",
+    "公開部署不在本步驟執行"
+  ]
+}

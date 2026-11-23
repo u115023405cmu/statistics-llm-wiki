@@ -1,0 +1,38 @@
+{
+  "time": "2026-11-23T16:29:21+08:00",
+  "type": "isolated_fault_injection",
+  "result": "pass",
+  "checks": [
+    {
+      "scenario": "Wiki 找不到指定段落時停止/回 B 補查",
+      "passed": true,
+      "expected_return": "B：重新查 Wiki；不存在時停止",
+      "note": "隔離測試（刻意檢查失敗路徑，不代表正式 HTML 發生此錯誤）"
+    },
+    {
+      "scenario": "未登記的 S99 不被認作合法來源",
+      "passed": true,
+      "expected_return": "B：重新取得證據，不得編造",
+      "note": "隔離測試（刻意檢查失敗路徑，不代表正式 HTML 發生此錯誤）"
+    },
+    {
+      "scenario": "缺少 HTML 前後頁導覽元件",
+      "passed": true,
+      "expected_return": "E：修 HTML 介面",
+      "note": "隔離測試（刻意檢查失敗路徑，不代表正式 HTML 發生此錯誤）"
+    },
+    {
+      "scenario": "三輪後不再自動重試",
+      "passed": true,
+      "expected_return": "STOP：人工處理",
+      "note": "隔離測試（刻意檢查失敗路徑，不代表正式 HTML 發生此錯誤）"
+    },
+    {
+      "scenario": "本機 PDF 應留存私人 raw 而非公開 ZIP",
+      "passed": true,
+      "expected_return": "ZIP 打包階段排除原始 PDF",
+      "note": "隔離測試（刻意檢查失敗路徑，不代表正式 HTML 發生此錯誤）"
+    }
+  ],
+  "local_pdf_count": 6
+}
